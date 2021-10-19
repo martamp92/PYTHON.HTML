@@ -1,5 +1,5 @@
 #Normalmente, los import suelen ir al principio de un programa. Al igual que las variables...
-from math import floor, ceil 
+from math import floor, ceil, trunc
 print("Librería math Python")
 numero1= 20
 numero2= 3
@@ -8,4 +8,5 @@ print("La divisón es " + str(division))
 #Vamos a utilizar el método floor: Redondea al inferior
 print("Floor: " + str(floor(division)))
 print("Ceil: " + str(ceil(division)))
+print("Trunc: " + str(trunc(division)))
 

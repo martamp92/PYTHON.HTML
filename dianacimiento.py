@@ -1,4 +1,4 @@
-
+from math import trunc
 print("Programa día nacimiento")
 print("Introduzca su día de nacimiento: ")
 dia = int(input())
@@ -12,13 +12,13 @@ if (mes == 1):
 elif (mes == 2):
     mes = 14
     ayo = ayo - 1
-operacion1= ((mes+1)*3)/5
-operacion2= (ayo/4)
-operacion3=(ayo/100)
-operacion4=ayo/400
-operacion5=dia+(mes*2)+ayo+operacion1+operacion2-operacion3+operacion4+2
-operacion6= operacion5/7
-resultado= operacion5-(operacion6*7) 
+operacion1= trunc (((mes+1)*3)/5)
+operacion2= trunc ((ayo/4))
+operacion3=trunc((ayo/100))
+operacion4=trunc(ayo/400)
+operacion5=trunc(dia+(mes*2)+ayo+operacion1+operacion2-operacion3+operacion4+2)
+operacion6= trunc(operacion5/7)
+resultado= trunc(operacion5-(operacion6*7))
 if (resultado == 0):
     print("SABADO")
 elif (resultado == 1):
