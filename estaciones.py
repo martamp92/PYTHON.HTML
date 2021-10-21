@@ -11,5 +11,4 @@ elif (estacion == 4):
     print("OTOÑO")
 else :
     print("OPCIÓN INCORRECTA")
-    
 print("Fin de programa")

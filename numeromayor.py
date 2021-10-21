@@ -7,5 +7,4 @@ if (numero1 > numero2):
     print("El mayor es " + str(numero1))
 else:
     print("El mayor es " + str(numero2))
-    
 print("Fin de programa")
