@@ -9,4 +9,7 @@ else:
     numerodni = int(aux)
     resultado = (numerodni - (trunc(numerodni / 23) * 23))
     print(resultado)
+    tabladni = "TRWAGMYFPDXBNJZSQVHLCKET"
+    letra = tabladni[resultado]
+    print("Su letra es: " + letra)
  
